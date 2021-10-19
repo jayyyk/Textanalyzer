@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang=en>
+    <head>
+        <title>
+            Text Analyzer
+        </title>
+    </head>
+    <body>
+        <h2> Just a HTML page, checking inpput types also</h2>  
+
+      <!--  {{name}} is from {{place}} su o --> 
+      <form action='/analyze' method='get'>
+        <textarea name='text' style='margin:0px;width:721px;height:93px;'> 
+        </textarea><br>
+        <input type="checkbox" name="removepunc"> remove punctutions <br>
+        <input type="checkbox" name="fullcaps"> FULL CAPS <br>
+        <input type="checkbox" name="newlineremover"> NEW LINE REMOVER<br>
+        <input type="checkbox" name="characcount"> charac counter<br>
+   
+
+
+        <button type="submit">
+            analyzer
+        </button>
+      </form>
+    
+    </body>
+</html>
